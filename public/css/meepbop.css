@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lobster'), url('http://themes.googleusercontent.com/static/fonts/lobster/v3/MWVf-Rwh4GLQVBEwbyI61Q.woff') format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Serif'), local('DroidSerif'), url('http://themes.googleusercontent.com/static/fonts/droidserif/v1/0AKsP294HTD-nvJgucYTaIbN6UDyHWBl620a-IRfuBk.woff') format('woff');
+}
+body {
+	padding: 10px;
+	background: ivory;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+}
+h1 {
+	font-family: 'Droid Serif';
+	font-size: 96px;
+	color: steelblue;
+}
+h2 {
+	font-family: 'Lobster';
+	font-size: 36px;
+	color: seagreen;
+}
