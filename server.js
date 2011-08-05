@@ -10,6 +10,6 @@ app.get('/', function (request, response) {
     response.render('meepbop', { layout: false });
 });
 
-var port = 8080;
+var port = 80;
 app.listen(port);
 console.log('Meepbop started on port ' + port);
